@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Mar, 2019, 11:07:33 AM
+    Author     : mohit
+*/
+
+
+.my-form input:focus:valid{
+    border: 1px solid green;
+}
+.my-form input:focus:invalid{
+    border: 1px solid red;
+}
+.error{
+    color: red;
+}
